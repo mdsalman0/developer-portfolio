@@ -19,9 +19,13 @@ h1 {
 }
 section { 
   display: flex;
+  margin-bottom: 100px;
 }
 .img-pic {
   width: 50%;
+}
+.tex p {
+   width: 520px;
 }
 .img-pic img {
    width: 86%;
@@ -32,9 +36,15 @@ section {
   border-radius: 5px;
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
   background: linear-gradient(45deg, lightsalmon, tomato);
 }
 .top-banner{
    background-image: url(/images/top-banner.png);
    background-repeat: no-repeat;
+}
+.dream-drg{
+   background-image: url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
 }
